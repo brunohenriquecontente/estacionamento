@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-size: 2vh;
+}
+
+body {
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    width: 50%;
+    margin: 2rem auto;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(190, 190, 190);
+    padding: 0.7rem;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.registrar {
+    background-color: rgb(20, 211, 36);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    width: 110px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid white;
+    padding: 6px;
+    text-shadow: 0 0 10px #d9ff00;
+}
+
+.registrar:hover{
+    background-color: white ;
+    color: rgb(20, 211, 36);
+    border: 1px solid lime;
+    transition-duration: .7s;
+    
+}
+
+
+.delete {
+    background-color: rgb(255, 10, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid white;
+    padding: 6px;
+    width: 110px;
+    margin: 0 auto;
+    
+
+}
+.delete:hover{
+    background-color: white ;
+    color: rgb(255, 10, 10);
+    border: 1px solid rgb(255,10,10);
+    transition-duration: .7s;
+}
+
+
+
+table {
+    background-color: rgb(190, 190, 190);
+    margin-top: .9rem;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    
+}
+
+th, td {
+    padding: 5px 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
